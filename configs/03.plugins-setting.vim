@@ -12,7 +12,9 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline_theme='gruvbox'
 
-
+"let g:ruby_host_prog = '/home/hnit/.gem/ruby/2.7.0/bin/neovim-ruby-host.ruby2.7'
+let g:python_host_prog = '/usr/bin/python2'
+let g:python3_host_prog = '/usr/bin/python3'
 "TAG
 nmap <F8> :TagbarToggle<CR>
 
